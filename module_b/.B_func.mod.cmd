@@ -1,0 +1,1 @@
+cmd_/home/zy/lab/another_kernel_module_call/module_b/B_func.mod := printf '%s\n'   B_func.o | awk '!x[$$0]++ { print("/home/zy/lab/another_kernel_module_call/module_b/"$$0) }' > /home/zy/lab/another_kernel_module_call/module_b/B_func.mod

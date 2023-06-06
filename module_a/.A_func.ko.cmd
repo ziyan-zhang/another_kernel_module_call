@@ -1,0 +1,1 @@
+cmd_/home/zy/lab/another_kernel_module_call/module_a/A_func.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/zy/lab/another_kernel_module_call/module_a/A_func.ko /home/zy/lab/another_kernel_module_call/module_a/A_func.o /home/zy/lab/another_kernel_module_call/module_a/A_func.mod.o;  true
